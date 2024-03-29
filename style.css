@@ -1,0 +1,652 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 350px;
+    font-family: "Poppins", sans-serif;
+}
+
+.start-screen {
+    background-color: #161D2F;
+}   
+
+.header {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-list {
+    padding: 0 80px 0 100px;
+}
+
+.menu-button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    margin-right: 50px;
+    transition: color 0.2s linear;
+}
+
+.menu-button:hover {
+    color: #46d6e9;
+}
+
+#button-home {
+    font-weight: 500;
+}
+
+.header-button {
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 50px;
+    height: 53px;
+    width: 157px;
+    position: relative;
+}
+
+.header-btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 37px;
+    top: 13px;
+    transition: color 0.2s linear;
+}
+
+.header-btn:hover {
+    color: #46d6e9
+}
+
+.welcome-screen {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #fff;
+}
+
+.welcome-text-2 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.welcome-text-3 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.welcome-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-button {
+    border-radius: 50px;
+    height: 53px;
+    width: 157px;
+    position: relative;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 25px;
+    transition: background-color 0.4s linear;
+}
+
+.contact-button:hover{
+    background-color: #46d6e9;
+}
+
+.contact-btn {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 28px;
+    top: 12px;
+    transition: color 0.2s linear;
+}
+
+.welcome-video {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.start-video {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.play-button {
+    position: absolute;
+    top: 1010px;
+    left: 910px;
+}
+
+.programs {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.programs-title {
+    font-weight: 400;
+    font-size: 14px;
+    color: #262626;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.programs-subtitle {
+    font-weight: 600;
+    font-size: 40px;
+    color: #222;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.programs-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.programs-img {
+    width: 350px;
+    height: 240px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item-name {
+    font-weight: 500;
+    font-size: 30px;
+    color: #222
+}
+
+.item-author {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.item-desc {
+    font-weight: 300;
+    font-size: 14px;
+    color: #4B4B4B;
+    margin-bottom: 15px;
+}
+
+.item-lnk {
+    text-decoration: none;
+    color: #3043A9;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.item-lnk:hover {
+    text-decoration: underline;
+}
+
+.arrow-right {
+    margin-left: 10px;
+    padding-top: 3px;
+    position: absolute;
+}
+
+.nutrition {
+    padding-top: 65px;
+    padding-bottom: 180px;
+}
+
+.nutrition-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-up, .image-down {
+    position: relative;
+}
+
+.discipline {
+    position: absolute;
+    z-index: 100;
+    left: -25px;
+    top: -15px;
+}
+
+.man-img {
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+    left: 100px;
+}
+
+.eating {
+    z-index: 100;
+    position: absolute;
+    top: 408px;
+    left: 380px;
+}
+
+.woman-img {
+    position: absolute;
+    z-index: 15;
+    top: 210px;
+    border-radius: 10px;
+}
+
+.nutrition-text {
+    margin-top: 80px;
+}
+
+.nutrition-title {
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 5 px;
+}
+
+.nutrition-subtitle {
+    font-weight: 600;
+    font-size: 40px;
+    color: #161D2F;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.nutrition-desc {
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #161D2F;
+    margin-bottom: 30px;
+}
+
+.nutrition-desc span {
+    font-weight: 500;
+}
+
+.pricing {
+    position: relative;
+}
+
+.pricing-bg {
+    background: linear-gradient(90deg, #09203F 0%, #161D2F 100%);
+    height: 600px;
+}
+
+.pricing-title {
+    padding-top: 90px;
+}
+
+.topic {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing-list {
+    display: flex;
+    position: absolute;
+    top: 270px;
+}
+
+.list-item {
+    background-color: #fff;
+    box-shadow: 0px 16px 35px 0px #7090B033;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    width: 350px;
+    height: 650px;
+}
+
+.name-item {
+    text-align: center;
+    color: #161D2F;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.list-image {
+    border-radius: 8px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+.trainer {
+    font-weight: 400;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+}
+
+.advans-list-basic {
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+
+.advans-list-standard {
+    padding-left: 80px;
+    margin-bottom: 70px;
+}
+
+.advans-list-premium {
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+.adv-list {
+    list-style-image: url(images/checkpoint.png);
+}
+
+.price {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.price span {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.price-button {
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 50px;
+    height: 53px;
+    width: 157px;
+    text-align: center;
+    margin-left: 96.5px;
+    position: relative;
+}
+
+.price-btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    transition: color 0.4s linear;
+}
+
+.price-btn:hover {
+    color: #46d6e9
+}
+
+.list-item:not(:last-of-type) {
+    margin-right: 73px;
+}
+
+.popular {
+    position: absolute;
+    border-radius: 0px 35px 0px 35px;
+    background-color: #63C776;
+    width: 70px;
+    height: 70px;
+    left: 707px;
+    top: 0;
+}
+
+.popular span {
+    position: absolute;
+    top: 24px;
+    left: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.about {
+    margin-top: 450px;
+    padding-bottom: 100px;
+}
+
+.topic {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #222;
+}
+
+.about-title {
+    color: #161D2F;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.facts-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.fact-number h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    color: #161D2F;
+    margin: 5px 0;
+}
+
+.fact-text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #161D2F
+}
+
+.fact-item {
+    margin: 0 0 0 75px;
+}
+
+.fact-item:not(:last-of-type) {
+    border-right: #000 solid 1px;
+    padding-right: 75px;
+}
+
+.benefit-title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #161D2F;
+}
+
+.benefit-desc {
+    font-weight: 300;
+    font-size: 16px;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.benefit-img {
+    position: absolute;
+}
+
+.benefits-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit-info {
+    padding-left: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.benefit-title {
+    margin-bottom: 10px;
+}
+
+.email {
+    padding-bottom: 70px;
+}
+
+.email-holder {
+    background-color: #161D2F;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-title {
+    margin-top: 110px;
+}
+
+.email-ttl {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.email-buttons {
+    display: flex;
+}
+
+.email-input {
+    color: #fff;
+    background-color: #161D2F;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 34px;
+    height: 50px;
+    width: 250px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    margin-right: 35px;
+}
+
+.email-imgs {
+    display: flex;
+}
+
+.email-image {
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.left-imgs {
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.right-imgs {
+    margin-top: 60px;
+}
+
+.footer {
+    border-top: 1px #d3d3d3 solid;
+    padding-bottom: 10px;
+}
+
+.footer-holder {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+.footer-ttl {
+    color: #161D2F;
+    font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-weight: 300;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 13px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+.item-title {
+    margin-bottom: 17px;
+}
+
+.title-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #161D2F;
+    text-decoration: none;
+}
+
+.title-link:hover {
+    color: #465475;
+}
+
+.item-list {
+    line-height: 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+}
+
+.footer-link:hover {
+    color: #6d6d6d;
+}
+
+.footer-rights {
+    color: #222;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
